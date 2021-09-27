@@ -1,24 +1,24 @@
 {
-  "name": "do-over-drawing",
-  "version": "1.0.0",
-  "description": "Stop worrying and draw something",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "source": "src/index.html",
-  "scripts": {
-    "start": "parcel --open",
-    "prebuild": "rm -rf dist",
-    "build": "parcel build --no-source-maps"
-  },
-  "author": "Chris Schnaars",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "parcel": "^2.0.0-rc.0",
-    "prettier": "^2.4.1"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0"
-  }
+    "name": "do-over-drawing",
+    "version": "1.0.0",
+    "description": "Stop worrying and draw something",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel --open",
+        "prebuild": "rm -rf dist",
+        "build": "parcel build --public-url ./chrisschnaars.com/do-over-drawing --no-source-maps"
+    },
+    "author": "Chris Schnaars",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.32.0",
+        "parcel": "^2.0.0-rc.0",
+        "prettier": "^2.4.1"
+    },
+    "dependencies": {
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0"
+    }
 }
