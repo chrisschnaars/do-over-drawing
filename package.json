@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel --open",
     "prebuild": "rm -rf dist",
-    "build": "parcel build --no-source-maps --no-cache"
+    "build": "parcel build --no-source-maps"
   },
   "author": "Chris Schnaars",
   "license": "MIT",
