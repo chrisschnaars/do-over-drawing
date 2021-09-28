@@ -7,7 +7,7 @@
     "scripts": {
         "start": "parcel --open",
         "prebuild": "rm -rf dist",
-        "build": "parcel build --no-source-maps --public-url ./"
+        "build": "parcel build --no-source-maps --public-url ./do-over-drawing"
     },
     "author": "Chris Schnaars",
     "license": "MIT",

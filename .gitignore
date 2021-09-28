@@ -28,6 +28,7 @@
 *.log
 *.sql
 *.sqlite
+.parcel-cache
 
 # OS generated files #
 ######################
