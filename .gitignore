@@ -1,6 +1,9 @@
 #DEPENDENCIES
 /node_modules
 
+# Build directory
+/dist
+
 # Compiled source #
 ###################
 *.com
