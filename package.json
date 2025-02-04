@@ -4,6 +4,7 @@
     "description": "Stop worrying and draw something",
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "source": "src/index.html",
+    "type": "module",
     "scripts": {
         "dev": "npx @11ty/eleventy --input=src --output=_site --serve",
         "build": "npx @11ty/eleventy --pathprefix=do-over-drawing"
