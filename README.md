@@ -3,9 +3,10 @@
 Stop worrying and start drawing.
 
 ## Development notes
-- Built using [Parcel](https://parceljs.org/)
--
-
+- Built using [Parcel](https://parceljs.org/) and [p5js](https://p5js.org/)
+- Spin up your own build:
+  - run `npm install`
+  - start the dev server: `npm run start`
 
 ## What is this?
 
