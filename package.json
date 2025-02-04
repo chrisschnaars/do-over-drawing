@@ -6,7 +6,7 @@
     "source": "src/index.html",
     "scripts": {
         "dev": "npx @11ty/eleventy --input=src --output=_site --serve",
-        "build": "npx @11ty/eleventy --pathprefix=do-over-drawing"
+        "build": "npx @11ty/eleventy"
     },
     "author": "Chris Schnaars",
     "license": "MIT",
