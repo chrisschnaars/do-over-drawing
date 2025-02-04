@@ -5,9 +5,8 @@
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "source": "src/index.html",
     "scripts": {
-        "start": "parcel --open",
-        "prebuild": "rm -rf dist",
-        "build": "parcel build --no-source-maps --public-url ./do-over-drawing"
+        "dev": "npx @11ty/eleventy --input=src --output=_site --serve",
+        "build": "npx @11ty/eleventy"
     },
     "author": "Chris Schnaars",
     "license": "MIT",
@@ -15,10 +14,10 @@
         "eslint": "^9.19.0",
         "eslint-config-prettier": "^10.0.1",
         "eslint-plugin-prettier": "^5.2.3",
-        "parcel": "^2.13.3",
         "prettier": "^3.4.2"
     },
     "dependencies": {
+        "@11ty/eleventy": "^3.0.0",
         "@babel/eslint-parser": "^7.26.5"
     }
 }
