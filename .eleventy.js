@@ -1,7 +1,7 @@
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("/src/css/style.css");
-    eleventyConfig.addPassthroughCopy("/src/js/sketch.js");
+    eleventyConfig.addPassthroughCopy({ "/src/js/sketch.js": '/' });
+    eleventyConfig.addPassthroughCopy({ "/src/css/style.css": '/' });
 
     return {
         markdownTemplateEngine: 'njk',
