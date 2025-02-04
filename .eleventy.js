@@ -1,4 +1,8 @@
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+
 module.exports = function (eleventyConfig) {
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
     eleventyConfig.addPassthroughCopy("/src/css/style.css");
     eleventyConfig.addPassthroughCopy("/src/js/sketch.js");
 
