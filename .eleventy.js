@@ -1,16 +1,20 @@
 
-module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy({ "./src/js/": "/" });
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+
+export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "./src/css/": "/" });
-
-    return {
-        markdownTemplateEngine: 'njk',
-        dataTemplateEngine: 'njk',
-        htmlTemplateEngine: 'njk',
-
-        dir: {
-            input: 'src',
-            output: '_site',
-        },
-    };
+    eleventyConfig.addPassthroughCopy({ "./src/js/": "/" });
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin)
 };
+
+export const config = {
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    pathPrefix: "do-over-drawing",
+
+    dir: {
+        input: 'src',
+        output: '_site',
+    },
+}
